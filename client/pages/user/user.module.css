@@ -1,0 +1,29 @@
+.table {
+  width: 60%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table tr td {
+  padding: 15px 10px;
+  border: 0.5px solid grey;
+}
+.redText {
+  color: red;
+  font-weight: bold;
+}
+.greenText {
+  color: green;
+  font-weight: bold;
+}
+.titleUser {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.deleteIcon {
+  color: red;
+  cursor: pointer;
+}
