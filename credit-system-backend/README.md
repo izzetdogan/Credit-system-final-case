@@ -10,8 +10,12 @@ cd credit-system-backend/
 
 $ docker-compose up
 
-$ mvn clean install
-$ mvn spring-boot:run
+$ mvn clean 
+$ mvn kotlin:compile
+
+- for Jar file 
+$ mvn package or $ mvn install 
+
 
 ```
 
