@@ -3,6 +3,17 @@
 
 It runs  on PORT: 8080
 
+## Note
+
+For the project to run without errors, the following code block must be added(with requirement parameters) to the application.properties file, or you can add a comment line on line 49 and line 69 ==>(smsService.sendSms(sendSmsDto);) in the SaveCreditWithUserService class.
+```
+twilio.account.sid=twilio-account-sid
+twilio.auth.token=twilio-auth-token
+twilio.phone.number=twilio-phone-number
+
+```
+
+
 ```
 git clone https://github.com/izzetdogan/credit-system-final-case.git
 
@@ -12,10 +23,7 @@ $ docker-compose up
 
 $ mvn clean 
 $ mvn kotlin:compile
-
-- for Jar file 
-$ mvn package or $ mvn install 
-
+$ mvn install 
 
 ```
 
