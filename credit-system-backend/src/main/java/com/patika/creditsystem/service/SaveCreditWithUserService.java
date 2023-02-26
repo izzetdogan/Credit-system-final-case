@@ -46,7 +46,7 @@ public class SaveCreditWithUserService {
                 credit.getCreditResult()
         );
         user.setCredit(CreditDto.convertToCredit(credit));
-        //smsService.sendSms(sendSmsDto);
+        smsService.sendSms(sendSmsDto);
         LOGGER.info("Service: request  credit with user is completed");
         return user;
 
@@ -66,7 +66,7 @@ public class SaveCreditWithUserService {
                 credit.getCreditResult()
         );
         user.setCredit(CreditDto.convertToCredit(credit));
-        //smsService.sendSms(sendSmsDto);
+        smsService.sendSms(sendSmsDto);
         LOGGER.info("Service: request  credit with user is completed");
         return user;
 
